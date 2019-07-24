@@ -37,8 +37,8 @@ class _HomePageState extends State<HomePage>{
                   ),
                   otherAccountsPictures: <Widget>[//
                   new GestureDetector(
-                    onTap: (){ switchUser();},//wwwww
-                    child: new CircleAvatar(//fb
+                    onTap: (){ switchUser();},
+                    child: new CircleAvatar(
                       backgroundImage: new NetworkImage(otherProfilePicture),
                     ),
                   )
