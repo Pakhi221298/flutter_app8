@@ -18,7 +18,7 @@ class MyTextInputState extends State<MyTextInput> {
   @override
   Widget build(BuildContext context){
     return new Scaffold(
-      appBar: AppBar(title: new Text("INPUT TEXT"),backgroundColor: Colors.red,),
+      appBar: AppBar(title: new Text("INPUT TEXT"),backgroundColor: Colors.pink,),
       body: Container(
         child: Center(
           child: Column(
